@@ -1,10 +1,13 @@
 package main;
 
-public class Product {
+public abstract class Product implements IProduct {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		protected String productID;
+		protected String productName;
 
-	}
-
+		public Product() {
+			;
+		}
+	
 }
